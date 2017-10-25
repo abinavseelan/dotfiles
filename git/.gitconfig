@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+        name = Abinav Seelan
+        email = abinav.n.seelan@gmail.com
+[alias]
+        co = checkout
+        c = commit
+        a = add
+        b = branch
+        p = push
+        pl = pull
+        s = status
+        unstage = reset HEAD
