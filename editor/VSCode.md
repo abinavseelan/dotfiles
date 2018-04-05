@@ -36,6 +36,9 @@
 - SCSS Intellisense
 - TODO Highlight
 - VSCode Icons
+- Git lens
+- Indenticator
+- Import Cost
 
 
 ## Themes
