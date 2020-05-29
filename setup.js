@@ -6,6 +6,7 @@ const prompt = new MultiSelect({
   name: 'taskList',
   message: 'What needs to be set up?',
   choices: [
+    { name: 'Set up project boilerplate' },
     { name: 'brew' },
     { name: 'gitconfig' },
     { name: 'zsh' },

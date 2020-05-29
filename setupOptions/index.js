@@ -1,3 +1,4 @@
+const { Input, Confirm } = require('enquirer');
 const { execSync } = require('child_process');
 
 const extensionList = require('./editor/extensions.json');
@@ -98,6 +99,33 @@ const installFiraCode = () => {
   console.log('✅ FiraCode installed!');
 };
 
+const setupBoilerplate = async () => {
+  const dirPrompt = new Input({
+    message: 'Project directory: ',
+  });
+
+  const dir = await dirPrompt.run();
+
+  const confirmationPrompt = new Confirm({
+    name: 'question',
+    message: `Is your project directory ${dir}?`,
+  });
+
+  const answer = await confirmationPrompt.run();
+
+  if (!answer) {
+    return;
+  }
+
+  console.log(`📣 Copying project boilerplate to ${dir}`);
+
+  execSync(`cp -r ./setupOptions/project/. ${dir}`, {
+    cwd: process.cwd(),
+  });
+
+  console.log('✅ Done!');
+};
+
 const runner = async (entity) => {
   try {
     switch (entity) {
@@ -123,6 +151,11 @@ const runner = async (entity) => {
 
       case 'Fira Code': {
         installFiraCode();
+        break;
+      }
+
+      case 'Set up project boilerplate': {
+        await setupBoilerplate();
         break;
       }
     }
