@@ -1,0 +1,21 @@
+{
+  "workbench.activityBar.visible": false,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "workbench.sideBar.location": "right",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true
+}
