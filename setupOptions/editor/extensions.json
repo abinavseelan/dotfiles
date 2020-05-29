@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Atom Keymap",
+    "appId": "ms-vscode.atom-keybindings"
+  },
+  {
+    "name": "Autoclose Tag",
+    "appId": "formulahendry.auto-close-tag"
+  },
+  {
+    "name": "Autorename Tag",
+    "appId": "formulahendry.auto-rename-tag"
+  },
+  {
+    "name": "Ayu Theme",
+    "appId": "teabyii.ayu"
+  },
+  {
+    "name": "Color Highlight",
+    "appId": "naumovs.color-highlight"
+  },
+  {
+    "name": "Deno",
+    "appId": "denoland.vscode-deno"
+  },
+  {
+    "name": "Docker",
+    "appId": "ms-azuretools.vscode-docker"
+  },
+  {
+    "name": "Editoconfig",
+    "appId": "editorconfig.editorconfig"
+  },
+  {
+    "name": "Eslint",
+    "appId": "dbaeumer.vscode-eslint"
+  },
+  {
+    "name": "Gitlens",
+    "appId": "eamodio.gitlens"
+  },
+  {
+    "name": "Indenticator",
+    "appId": "sirtori.indenticator"
+  },
+  {
+    "name": "Live share",
+    "appId": "ms-vsliveshare.vsliveshare"
+  },
+  {
+    "name": "Live share extension pack",
+    "appId": "ms-vsliveshare.vsliveshare-pack"
+  },
+  {
+    "name": "Markdown Formatter",
+    "appId": "mervin.markdown-formatter"
+  },
+  {
+    "name": "Prettier",
+    "appId": "esbenp.prettier-vscode"
+  },
+  {
+    "name": "TODO highlight",
+    "appId": "wayou.vscode-todo-highlight"
+  },
+  {
+    "name": "Turbo Console log",
+    "appId": "chakrounanas.turbo-console-log"
+  },
+  {
+    "name": "VSCode Icons",
+    "appId": "vscode-icons-team.vscode-icons"
+  },
+  {
+    "name": "VSCode StyledComponents Plugin",
+    "appId": "jpoissonnier.vscode-styled-components"
+  }
+]

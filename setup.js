@@ -5,7 +5,13 @@ const runner = require('./setupOptions');
 const prompt = new MultiSelect({
   name: 'taskList',
   message: 'What needs to be set up?',
-  choices: [{ name: 'brew' }, { name: 'gitconfig' }, { name: 'zsh' }],
+  choices: [
+    { name: 'brew' },
+    { name: 'gitconfig' },
+    { name: 'zsh' },
+    { name: 'VSCode Extensions' },
+    { name: 'Fira Code' },
+  ],
 });
 
 (async () => {
