@@ -1,0 +1,30 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "Dotfiles & setup files",
+  "main": "setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinavseelan/dotfiles.git"
+  },
+  "keywords": [
+    "dotfiles"
+  ],
+  "author": "Abinav Seelan <abinav.n.seelan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abinavseelan/dotfiles/issues"
+  },
+  "homepage": "https://github.com/abinavseelan/dotfiles#readme",
+  "dependencies": {
+    "enquirer": "^2.3.5"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5"
+  }
+}
