@@ -1,3 +1,3 @@
 # dotfiles 
 
-> Dotfiles & automation script to set up dev environment
+> Dotfiles & automation script to set up dev environment!
